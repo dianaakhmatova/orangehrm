@@ -1,0 +1,13 @@
+ID,Title,Steps,Expected Result,Actual Result,Status
+TC-01,Login with valid credentials,Go to login > Enter valid username/password > Click login,Dashboard is displayed,,Not executed
+TC-02,Login with invalid password,Enter valid username but wrong password > Click login,"Error message: Invalid credentials",,Not executed
+TC-03,Add new employee with valid data,Login > PIM > Add Employee > Fill form > Submit,"Page 'Personal Details' appears",,Not executed
+TC-04,Check that employee URL contains empNumber after creation,Submit new employee > Check URL,URL ends with empNumber path,,Not executed
+TC-05,Logout,Login > Open user menu > Click Logout,Redirected to Login page,,Not executed
+TC-06,Logout shows username field,After logout, login form is visible,,Not executed
+TC-07,Search for existing employee,Login > PIM > Enter known name > Search,Matching record shown,,Not executed
+TC-08,Search result contains correct name,Validate that result includes searched name,Name is present in table,,Not executed
+TC-09,Validate required field error,Leave all fields empty > Submit,Red error messages appear,,Not executed
+TC-10,Validate error count,At least two required errors must be shown,2+ error messages,,Not executed
+TC-11,Check sidebar menu items,Login > Observe left menu,At least 5 items shown,,Not executed
+TC-12,Sidebar contains 'PIM' section,Ensure 'PIM' link exists,PIM found in sidebar,,Not executed
