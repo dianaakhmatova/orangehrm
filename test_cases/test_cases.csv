@@ -1,0 +1,7 @@
+ID,Title,Steps,Expected Result,Actual Result,Status
+TC-01,Login with valid credentials,Go to login > Enter valid username/password > Click login,Dashboard is displayed,,Not executed
+TC-02,Login with invalid password,Go to login > Enter valid username and wrong password > Click login,"Error message: Invalid credentials",,Not executed
+TC-03,Add new employee,Login > Go to PIM > Add Employee > Fill form > Submit,Page "Personal Details" appears,,Not executed
+TC-04,Logout from system,Login > Open user menu > Click Logout,Redirected to Login page,,Not executed
+TC-05,Search employee by name,Login > Go to PIM > Enter name in search > Submit,Matching employee appears in result table,,Not executed
+TC-06,Required fields validation on Add Employee,Login > Go to PIM > Add Employee > Click Submit without filling fields,Error message "Required" is shown,,Not executed
